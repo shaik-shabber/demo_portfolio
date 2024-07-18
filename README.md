@@ -1,4 +1,4 @@
-#My Portfolio Website
+My Portfolio Website
 Introduction
 This is a personal portfolio website created using React and JavaScript. The website is styled using component-level styling with styled-components, without the use of separate CSS files. The portfolio includes sections such as About, Contact, Education, Hero Section, Navbar, Projects, and Skills.
 
