@@ -1,70 +1,58 @@
-# Getting Started with Create React App
+My Portfolio Website
+Introduction
+This is a personal portfolio website created using React and JavaScript. The website is styled using component-level styling with styled-components, without the use of separate CSS files. The portfolio includes sections such as About, Contact, Education, Hero Section, Navbar, Projects, and Skills.
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Features
+Dynamic Bio and Skills: The bio and skills information is dynamically updated through the data/constants.js file.
+Project Details: Projects, including descriptions, start and end dates, technologies used, and images, are detailed in data/projects.js.
+Component-Level Styling: All components are styled within their respective JavaScript files using styled-components.
+Image Management: Images for projects, hero section, and personal use can be uploaded to the src/images directory.
+Folder Structure
+src/components/ - Contains all the main components of the portfolio.
+About/
+ContactUs/
+Education/
+HeroSection/
+Navbar/
+Projects/
+Skills/
+src/data/ - Contains data files for dynamic content.
+constants.js
+projects.js
+src/images/ - Directory for image assets.
+src/utils/ - Contains utility files.
+Themes.js - Contains the basic theme applied to the project.
+Getting Started
+Prerequisites
+Make sure you have Node.js and npm installed on your machine.
 
-## Available Scripts
+Installation
+Clone the repository: git clone <repository-url>
 
-In the project directory, you can run:
+Navigate to the project directory: cd <project-directory>
 
-### `npm start`
+Install the dependencies: npm install
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+Running the Project
+Start the development server: npm start
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+The application will run on http://localhost:3000.
+Customizing the Portfolio
+Updating Bio and Skills
+Bio and Skills: Modify src/data/constants.js to update your bio and skills. Changes made here will be dynamically reflected on the website.
+Managing Projects
+Projects: Edit src/data/projects.js to add or update project details such as title, description, start and end dates, technologies used, and images.
+Adding Images
+Images: Upload your images to the src/images directory. These can be used for project thumbnails, hero sections, or personal images.
+Theme Customization
+Theme: Customize the theme by editing src/utils/Themes.js. This file contains the styling theme for the entire project.
+Technologies Used
+React
+JavaScript
+styled-components for component-level styling
+Contribution
+Feel free to fork this repository, make modifications, and submit pull requests. All contributions are welcome!
 
-### `npm test`
+License
+This project is open-source and available under the MIT License.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
