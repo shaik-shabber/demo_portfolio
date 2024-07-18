@@ -1,4 +1,4 @@
-My Portfolio Website
+#My Portfolio Website
 Introduction
 This is a personal portfolio website created using React and JavaScript. The website is styled using component-level styling with styled-components, without the use of separate CSS files. The portfolio includes sections such as About, Contact, Education, Hero Section, Navbar, Projects, and Skills.
 
@@ -27,15 +27,23 @@ Prerequisites
 Make sure you have Node.js and npm installed on your machine.
 
 Installation
-Clone the repository: git clone <repository-url>
-
-Navigate to the project directory: cd <project-directory>
-
-Install the dependencies: npm install
-
+Clone the repository:
+sh
+Copy code
+git clone <repository-url>
+Navigate to the project directory:
+sh
+Copy code
+cd <project-directory>
+Install the dependencies:
+sh
+Copy code
+npm install
 Running the Project
-Start the development server: npm start
-
+Start the development server:
+sh
+Copy code
+npm start
 The application will run on http://localhost:3000.
 Customizing the Portfolio
 Updating Bio and Skills
